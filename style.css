@@ -1,0 +1,50 @@
+/* Fundo com a Via Láctea */
+body {
+  font-family: Arial, sans-serif;
+  background: url('via-lactea.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Estilo principal do container */
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  z-index: 10;
+}
+
+h1 {
+  color: #ffd700; /* Cor dourada para destacar o título */
+}
+
+.gallery {
+  margin: 20px 0;
+}
+
+.gallery img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.counter {
+  margin: 20px 0;
+}
+
+#time-counter {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.playlist iframe {
+  margin-top: 20px;
+  border-radius: 10px;
+}
